@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<!-- For the id, always use something unique - put your name, a colon, and then the package name. -->
+	<id>ThomasWi:NoInfoCenter</id>
+	<!-- Below should be the name of this package. -->
+	<name>NoInfoCenter</name>
+	<!-- The version of this modification.  Keep it numeric so PHP can tell that old < new. -->
+	<version>0.1</version>
+	<!-- Type, one of: modification, avatar, language. -->
+	<type>modification</type>
+
+	<!-- Installation, the key part of this file. -->
+	<install>
+		<readme>readme.txt</readme>
+		<modification>install.xml</modification>
+	</install>
+
+	<!-- Don't forget something to make it uninstallable! -->
+	<uninstall>
+		<modification reverse="true">install.xml</modification>
+	</uninstall>
+</package-info>
